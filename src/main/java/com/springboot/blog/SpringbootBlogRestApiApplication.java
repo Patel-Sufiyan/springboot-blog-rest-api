@@ -1,4 +1,4 @@
-package com.springboot.blog.springbootblogrestapi;
+package com.springboot.blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
