@@ -11,6 +11,8 @@ import com.springboot.blog.exception.ResourceNotFoundException;
 @ControllerAdvice
 public class ResourceNotFoundExceptionAdvice {
 
+	//we can have multiple exceptionhandler 
+	
 	@ResponseBody // the returned value is sent as the response body
 	@ExceptionHandler(ResourceNotFoundException.class) // name the exception to be handled
 	@ResponseStatus(HttpStatus.NOT_FOUND) // for status to the caller
